@@ -1,0 +1,25 @@
+/*
+1 Для того чтобы использовать  flex нужен  flex-контейнер display: flex
+2 для дочерних элементов нужен родитель  flex
+
+flex-блочный, он занимает всю ширину родителя
+*/
+.flexContainer{
+    display: flex;
+}
+
+.flexItem{
+
+}
+
+.flexContainerStyle{
+    background-color: dodgerblue;
+}
+
+.flexItemStyle{
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+}
